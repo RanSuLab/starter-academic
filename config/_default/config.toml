@@ -24,7 +24,6 @@ copyright = ""
 enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
-<<<<<<< HEAD
 defaultContentLanguage = "zh"
 hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = true
@@ -36,7 +35,6 @@ enableEmoji = true
 enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-disableAliases = true  # Disable aliases when `redirects` is added to the `outputs` below.
 
 [permalinks]
   # If only creating events which are talks, we can optimize event URLs for talks.
@@ -47,8 +45,15 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   publication_types = "/publication-type/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
-  section = ["HTML", "RSS"]
+  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
+  section = [ "HTML", "RSS" ]
+
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
 
 # Configure the Markdown renderer.
 [markup]
@@ -95,6 +100,10 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   [[related.indices]]
     name = "categories"
     weight = 70.0
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20.0
 
 # Install Wowchemy
 [module]
