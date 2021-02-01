@@ -11,6 +11,6 @@
 [zh]
   languageCode = "zh-Hans"
   contentDir = "content/zh"
-  title = "Academic"
+  title = "RanSu-Lab"
   [zh.params]
     description = "Site description in Chinese..."
