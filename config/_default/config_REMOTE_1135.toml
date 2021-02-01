@@ -6,11 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-<<<<<<< HEAD
-title = "RanSu-Lab"
-=======
 title = "Academic"
->>>>>>> 36189c22ea9f7a3cd93e0815ff72e4a8d2420cfd
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -28,15 +24,9 @@ copyright = ""
 enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
-<<<<<<< HEAD
-defaultContentLanguage = "zh"
-hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = true
-=======
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
->>>>>>> 36189c22ea9f7a3cd93e0815ff72e4a8d2420cfd
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
