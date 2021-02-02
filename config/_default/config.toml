@@ -14,12 +14,12 @@ title = "RanSu-Lab"
 baseurl = ""
 
 [languages]
-  [en]
+[languages.en]
     baseURL = `https://ransu-lab.netlify.app/en`
     languageName = "English"
     title = "RanSu-Lab"
     weight = 2
-  [zh]
+[languages.zh]
     baseURL = `https://ransu-lab.netlify.app/zh`
     languageName = "Chinese"
     title = "สตั้สา"
@@ -37,7 +37,7 @@ copyright = ""
 enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "cn"
+defaultContentLanguage = "zn"
 hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = true
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
