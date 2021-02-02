@@ -9,8 +9,8 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "People"
+  url = "#people"
   weight = 20
 
 [[main]]
@@ -19,8 +19,8 @@
   weight = 30
 
 [[main]]
-  name = "Talks"
-  url = "#talks"
+  name = "Teaching"
+  url = "#teaching"
   weight = 40
 
 [[main]]
@@ -33,6 +33,8 @@
   url = "#contact"
   weight = 60
 
+
+  
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
 # [[main]]
