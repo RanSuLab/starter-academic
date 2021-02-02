@@ -9,8 +9,12 @@
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
-  # languageCode = "zh-cn"
-  # contentDir = "content/zh"
-  # title = "RanSu-Lab"
- #  [zh.params]
-   # description = "Site description in Chinese..."
+#  languageCode = "zh-Hans"
+#  contentDir = "content/zh"
+#  title = "Chinese website title..."
+#  [zh.params]
+#    description = "Site description in Chinese..."
+#  [[zh.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
