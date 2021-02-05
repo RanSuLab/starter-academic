@@ -25,7 +25,7 @@ experience:
   - title: Associate Professor
     company: Tianjin University
     location: Tianjin
-    date_start: '2017-01-01'
+    date_start: '2016-06-01'
     date_end: ''
     description: |2-
         Responsibilities include:
@@ -34,11 +34,11 @@ experience:
         * Modelling
         * Deploying
         
-  - title: Discrete Mathematics
-    company: University X
+  - title: Postdoc researcher
+    company: Agency for Science, Technology and Research (A*STAR)
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
+    location: Singapore
+    date_start: '2013-11-08'
+    date_end: '2016-05-31'
     description: Taught electronic engineering and researched semiconductor physics.
 ---
