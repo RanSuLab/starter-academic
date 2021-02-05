@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Associate Professor
     company: Tianjin University
-    location: Tianjin
+    location: Tianjin, China
     date_start: '2016-06-01'
     date_end: ''
     description: |2-
