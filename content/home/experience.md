@@ -7,9 +7,9 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 70
 
-title: Experience
+title: Teaching
 subtitle:
 
 # Date format for experience
@@ -22,10 +22,9 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
+  - title: Associate Professor
+    company: Tianjin University
+    location: Tianjin
     date_start: '2017-01-01'
     date_end: ''
     description: |2-
@@ -35,7 +34,7 @@ experience:
         * Modelling
         * Deploying
         
-  - title: Professor
+  - title: Discrete Mathematics
     company: University X
     company_url: ''
     location: California
