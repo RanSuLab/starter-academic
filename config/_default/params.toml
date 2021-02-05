@@ -93,7 +93,7 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Room 319", city = "Building 55", region = "Peiyang campus", postcode = "HaiHe Education Park", country = "Jinnan", country_code = "Tianjin"}
+address = {street = "Room 319", city = "Building 55", region = "Peiyang campus, HaiHe Education Park, Jinnan", postcode = "HaiHe Education Park", country = "Jinnan", country_code = "Tianjin"}
 
 
 # Contact links
