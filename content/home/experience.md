@@ -28,11 +28,11 @@ experience:
     date_start: '2016-06-01'
     date_end: ''
     description: |2-
-        #Responsibilities include:
+# Responsibilities include:
         
-       # * Analysing
-        #* Modelling
-        #* Deploying
+# * Analysing
+# * Modelling
+# * Deploying
         
   - title: Postdoc researcher
     company: Agency for Science, Technology and Research (A*STAR)
