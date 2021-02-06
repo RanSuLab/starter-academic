@@ -26,10 +26,10 @@ interests:
 education:
   courses:
   - course: PhD in Computer Science
-    institution: The University of New South Wales
+    institution: The University of New South Wales, Australia
     year: 2013
   - course: BSc in Electrical Engineering
-    institution: Tianjin University
+    institution: Tianjin University, China
     year: 2009
 
 # Social/Academic Networking
