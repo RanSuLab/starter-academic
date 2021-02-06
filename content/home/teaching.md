@@ -1,6 +1,6 @@
 ---
-# An instance of the Tag Cloud widget.
-# Docs: https://wowchemy.com/docs/page-builder/
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
 
 # This file represents a page section.
@@ -18,4 +18,8 @@ date_format: Jan 2006
 
 experience:
   - title: Discrete mathematics
+    company: Tianjin University
+    location: Tianjin, China
+    date_start: '2016-06-01'
+    date_end: ''
 ---

@@ -27,7 +27,7 @@ experience:
     location: Tianjin, China
     date_start: '2016-06-01'
     date_end: ''
-    description: |2-
+    # description: |2-
 # Responsibilities include:
         
 # * Analysing
@@ -40,4 +40,5 @@ experience:
     location: Singapore
     date_start: '2013-11-08'
     date_end: '2016-05-31'
+    description: Taught electronic engineering and researched semiconductor physics.
 ---
