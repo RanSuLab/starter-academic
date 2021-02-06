@@ -12,6 +12,6 @@ weight: 60
 title: Teaching
 subtitle: ''
 
-content:
-Discrete mathematics
+experience:
+  - title: Discrete mathematics
 ---
