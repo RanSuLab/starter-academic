@@ -20,6 +20,6 @@ experience:
   - title: Discrete mathematics
     company: College of Intelligence and Computing, Tianjin University
     location: 2018/2019/2020-Semester 2
-    #date_start: '2016-06-01'
-    #date_end: ''
+#date_start: '2016-06-01'
+#date_end: ''
 ---
