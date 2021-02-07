@@ -1,7 +1,7 @@
 ---
-# An instance of the Experience widget.
+# An instance of the Featurette widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: experience
+widget: featurette
 
 # This file represents a page section.
 headless: true
@@ -10,16 +10,36 @@ headless: true
 weight: 60
 
 title: Teaching
-subtitle: ''
+subtitle:
 
-# Date format for experience
-#   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+# Showcase personal skills or business features.
+# - Add/remove as many `feature` blocks below as you like.
+# - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
+feature:
+- description: 90%
+  icon: r-project
+  icon_pack: fab
+  name: Math
+- description: 100%
+  icon: chart-line
+  icon_pack: fas
+  name: Statistics
+- description: 10%
+  icon: camera-retro
+  icon_pack: fas
+  name: Photography
 
-experience:
-  - title: Discrete mathematics
-    company: College of Intelligence and Computing, Tianjin University
-    location: 2018/2019/2020-Semester 2
-    date_start: ''
-    date_end: ''
+# Uncomment to use emoji icons.
+#- icon: ":smile:"
+#  icon_pack: "emoji"
+#  name: "Emojiness"
+#  description: "100%"  
+
+# Uncomment to use custom SVG icons.
+# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
+# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
+#- icon: "your-custom-icon-name"
+#  icon_pack: "custom"
+#  name: "Surfing"
+#  description: "90%"
 ---
