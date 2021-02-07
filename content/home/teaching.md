@@ -18,8 +18,8 @@ date_format: Jan 2006
 
 experience:
   - title: Discrete mathematics
-    company: Tianjin University
+    company: College of Intelligence and Computing, Tianjin University
     location: Tianjin, China
-    date_start: '2016-06-01'
+    date_start: '2018/2019/2020-Semester 2'
     date_end: ''
 ---
