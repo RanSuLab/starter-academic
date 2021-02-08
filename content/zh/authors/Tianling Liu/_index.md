@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Tianling Liu
+title: 刘天灵
 
 # Username (this should match the folder name)
 authors:

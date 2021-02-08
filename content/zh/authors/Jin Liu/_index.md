@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jin Liu
+title: 刘瑾
 
 # Username (this should match the folder name)
 authors:

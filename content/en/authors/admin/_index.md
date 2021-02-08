@@ -67,5 +67,5 @@ email: ""
 highlight_name: false
 ---
 
-Ran's Lab focus on using artificial intelligent technology to solve biomedical problems, such as issues in drug development, complex disease diagnosis and treatment, etc. If you are passionate and patient, do not hesitate to contact us and we will work together to make good contributions to human being's well-being
+Ran's Lab focus on using artificial intelligent technology to solve biomedical problems, such as issues in drug development, complex disease diagnosis and treatment, etc. If you are interested in our field and if you are passionate and patient, do not hesitate to contact us and we will work together to make good contributions to human being's well-being
 

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yixuan Huang
+title: 黄译萱
 
 # Username (this should match the folder name)
 authors:

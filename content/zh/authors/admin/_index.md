@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Ran Su
+title: 苏苒
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: A/Prof.
+role: 副教授
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: College of Intelligence and Computing, Tianjin University
+- name: 天津大学智能与计算学部
   #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -18,18 +18,18 @@ bio: My research interests include Artificial Intelligence and biomedicine, bioi
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence and biomedicine
-- Bioinformatics
-- Medical imaging
+- 人工智能与生物医药
+- 生物信息
+- 医学影像
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Computer Science
-    institution: The University of New South Wales, Australia
+  - course: 计算机博士
+    institution: 澳大利亚新南威尔士大学
     year: 2013
-  - course: BSc in Electrical Engineering
-    institution: Tianjin University, China
+  - course: 自动化本科
+    institution: 天津大学
     year: 2009
 
 # Social/Academic Networking
@@ -67,5 +67,4 @@ email: ""
 highlight_name: false
 ---
 
-Ran's Lab focus on using artificial intelligent technology to solve biomedical problems, such as issues in drug development, complex disease diagnosis and treatment, etc. If you are passionate and patient, do not hesitate to contact us and we will work together to make good contributions to human being's well-being
-
+我们实验室主要聚焦在利用人工智能技术解决生物医学上的问题，例如药物开发、复杂疾病诊断及治疗中存在的问题。如果你对我们的方向感兴趣，并且你是热忱的、耐心的，欢迎加入我们，让我们一起利用计算机探索人类健康！

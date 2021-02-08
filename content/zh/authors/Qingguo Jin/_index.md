@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Qingguo Jin
+title: 金强国
 
 # Username (this should match the folder name)
 authors:
