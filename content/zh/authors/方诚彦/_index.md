@@ -1,10 +1,10 @@
 ---
 # Display name
-title:方诚彦
+title:Chengyan Fang
 
 # Username (this should match the folder name)
 authors:
-- Chengyan Fang
+- 方诚彦
 
 # Is this the primary user of the site?
 superuser: false
