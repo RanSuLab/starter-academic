@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Chengyan Fang
+title: 方
 
 # Username (this should match the folder name)
 authors:
