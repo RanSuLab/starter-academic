@@ -1,15 +1,17 @@
 ---
-title: "M6APred-EL A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
+title: "A new method for linear feature and junction enhancement in 2D images based on morphological operation, oriented anisotropic Gaussian function and Hessian information"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Leyi Wei
-- Huangrong Chen
 - admin
+- Changming Sun
+- Chao Zhang
+- Tuan D. Pham
 
-date: "2018-07-01T00:00:00Z"
+
+date: "2014-04-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -22,10 +24,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Molecular Therapy Nucleic Acids*
+publication: In *Pattern Recognition*
 
-abstract: N6-methyladenosine (m6A) modification is the most abundant RNA methylation modification and involves various biological processes, such as RNA splicing and degradation. Recent studies have demonstrated the feasibility of identifying m6A peaks using high-throughput sequencing techniques. However, such techniques cannot accurately identify specific methylated sites, which is important for a better understanding of m6A functions. In this study, we develop a novel machine learning-based predictor called M6APred-EL for the identification
-of m6A sites. To predict m6A sites accurately within genomic sequences, we trained an ensemble of three support vector machine classifiers that explore the position-specific information and physical chemical information from position- specific k-mer nucleotide propensity, physical-chemical properties, and ring-function-hydrogen-chemical properties. We examined and compared the performance of our predictor with other state-of-the-art methods of benchmarking datasets. Comparative results showed that the proposed M6APred-EL performed more accurately for m6A site identification. Moreover, a user-friendly web server that implements the proposed M6APred-EL is well established and is currently available at http://server.malab.cn/M6APred-EL/. It is expected to be a practical and effective tool for the investigation of m6A functional mechanisms.
+abstract: Feature enhancement is an important preprocessing step in many image processing tasks. It is the process of adjusting image intensities so that the enhanced results are more suitable for analysis. Good enhancement results for linear structures such as vessels or neurites can be used as inputs for segmentation and other operations. In this paper, a novel linear feature enhancement filter – an adaptive multi-scale morpho-Gaussian filter – which can enhance and smooth linear features is proposed based on morphological operation, anisotropic Gaussian function and Hessian information. This filter can enhance and smooth along the local orientation of the linear structures and the Hessian measurement is used to further enhance the linear features. We utilize the Hessian matrix to calculate the orientation information for our directional morphological operation and the oriented anisotropic Gaussian smoothing. We also propose a novel method for junction enhancement, which can solve the problem of junction suppression. We decompose the junctions and enhance along each linear structure within a junction region. We present the test results of our algorithm on images of different types and compare our method with three existing methods. The experimental results show that the proposed approach can achieve better results.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
