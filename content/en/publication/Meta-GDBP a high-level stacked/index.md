@@ -1,5 +1,5 @@
 ---
-title: "Meta-GDBP a high-level stacked regression model to improve anticancer drug response prediction"
+title: "Meta-GDBP: a high-level stacked regression model to improve anticancer drug response prediction"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -26,20 +26,6 @@ publication_types: ["1"]
 publication: In *Briefings in Bioinformatics*
 
 abstract: Anticancer drug response prediction plays an important role in personalized medicine. In particular, precisely predicting
-drug response in specific cancer types and patients is still a challenge problem. Here we propose Meta-GDBP, a novel
-anticancer drug-response model, which involves two levels. At the first level of Meta-GDBP, we build four optimized base
-models (BMs) using genetic information, chemical properties and biological context with an ensemble optimization strategy,
-while at the second level, we construct a weighted model to integrate the four BMs. Notably, the weights of the models are
-learned upstream, thus the parameter cost is significantly reduced compared to previous methods.We evaluate the
-Meta-GDBP on Genomics of Drug Sensitivity in Cancer (GDSC) and the Cancer Cell Line Encyclopedia (CCLE) data sets.
-Benchmarking results demonstrate that compared to other methods, the Meta-GDBP achieves a much higher correlation
-between the predicted and the observed responses for almost all the drugs. Moreover, we apply the Meta-GDBP to predict
-the GDSC-missing drug response and use the CCLE-known data to validate the performance. The results show quite a
-similar tendency between these two response sets. Particularly, we here for the first time introduce a biological
-context-based frequency matrix (BCFM) to associate the biological context with the drug response. It is encouraging that the
-proposed BCFM is biologically meaningful and consistent with the reported biological mechanism, further demonstrating its
-efficacy for predicting drug response. The R implementation for the proposed Meta-GDBP is available at https://github.com/
-RanSuLab/Meta-GDBP.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
