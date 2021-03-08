@@ -7,8 +7,8 @@ title: "PEPred-Suite: improved and robust prediction of therapeutic peptides usi
 authors:
 - Leyi Wei
 - Chen Zhou
-- admin
-- Quan Zou
+- Ran Su*
+- Quan Zou*
 
 date: "2019-4-01T00:00:00Z"
 doi: ""
@@ -25,26 +25,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: In *Bioinformatics*
 
-abstract: Motivation: Prediction of therapeutic peptides is critical for the discovery of novel and efficient
-peptide-based therapeutics. Computational methods, especially machine learning based methods,
-have been developed for addressing this need. However, most of existing methods are peptidespecific;
-currently, there is no generic predictor for multiple peptide types. Moreover, it is still challenging
-to extract informative feature representations from the perspective of primary sequences.
-Results: In this study, we have developed PEPred-Suite, a bioinformatics tool for the generic prediction
-of therapeutic peptides. In PEPred-Suite, we introduce an adaptive feature representation
-strategy that can learn the most representative features for different peptide types. To be specific,
-we train diverse sequence-based feature descriptors, integrate the learnt class information into our
-features, and utilize a two-step feature optimization strategy based on the area under receiver operating
-characteristic curve to extract the most discriminative features. Using the learnt representative
-features, we trained eight random forest models for eight different types of functional peptides,
-respectively. Benchmarking results showed that as compared with existing predictors, PEPred-
-Suite achieves better and robust performance for different peptides. As far as we know, PEPred-
-Suite is currently the first tool that is capable of predicting so many peptide types simultaneously.
-In addition, our work demonstrates that the learnt features can reliably predict different peptides.
-Availability and implementation: The user-friendly webserver implementing the proposed PEPred-
-Suite is freely accessible at http://server.malab.cn/PEPred-Suite.
-Contact: ran.su@tju.edu.cn or zouquan@nclab.net
-Supplementary information: Supplementary data are available at Bioinformatics online.
+abstract: Motivation: Prediction of therapeutic peptides is critical for the discovery of novel and efficient peptide-based therapeutics. Computational methods, especially machine learning based methods, have been developed for addressing this need. However, most of existing methods are peptidespecific; currently, there is no generic predictor for multiple peptide types. Moreover, it is still challenging to extract informative feature representations from the perspective of primary sequences. Results: In this study, we have developed PEPred-Suite, a bioinformatics tool for the generic prediction of therapeutic peptides. In PEPred-Suite, we introduce an adaptive feature representation strategy that can learn the most representative features for different peptide types. To be specific, we train diverse sequence-based feature descriptors, integrate the learnt class information into our features, and utilize a two-step feature optimization strategy based on the area under receiver operating characteristic curve to extract the most discriminative features. Using the learnt representative features, we trained eight random forest models for eight different types of functional peptides, respectively. Benchmarking results showed that as compared with existing predictors, PEPred- Suite achieves better and robust performance for different peptides. As far as we know, PEPred-Suite is currently the first tool that is capable of predicting so many peptide types simultaneously. In addition, our work demonstrates that the learnt features can reliably predict different peptides. Availability and implementation: The user-friendly webserver implementing the proposed PEPred-Suite is freely accessible at http://server.malab.cn/PEPred-Suite.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
