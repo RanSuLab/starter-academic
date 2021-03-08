@@ -26,20 +26,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: In *Journal of Parallel and Distributed Computing*
 
-abstract: Protein subcellular localization (PSL), as one of the most critical characteristics of human cells, plays an
-important role for understanding specific functions and biological processes in cells. Accurate prediction
-of protein subcellular localization is a fundamental and challenging problem, for which machine learning
-algorithms have been widely used. Traditionally, the performance of PSL prediction highly depends on
-handcrafted feature descriptors to represent proteins. In recent years, deep learning has emerged as a
-hot research topic in the field of machine learning, achieving outstanding success in learning high-level
-latent features within data samples. In this paper, to accurately predict protein subcellular locations, we
-propose a deep learning based predictor called DeepPSL by using Stacked Auto-Encoder (SAE) networks.
-In this predictor, we automatically learn high-level and abstract feature representations of proteins by
-exploring non-linear relations among diverse subcellular locations, addressing the problem of the need
-of handcrafted feature representations. Experimental results evaluated with three-fold cross validation
-show that the proposed DeepPSL outperforms traditional machine learning based methods. It is expected
-that DeepPSL, as the first predictor in the field of PSL prediction, has great potential to be a powerful
-computational method complementary to existing tools.
+abstract: Protein subcellular localization (PSL), as one of the most critical characteristics of human cells, plays an important role for understanding specific functions and biological processes in cells. Accurate prediction of protein subcellular localization is a fundamental and challenging problem, for which machine learning algorithms have been widely used. Traditionally, the performance of PSL prediction highly depends on handcrafted feature descriptors to represent proteins. In recent years, deep learning has emerged as a hot research topic in the field of machine learning, achieving outstanding success in learning high-level latent features within data samples. In this paper, to accurately predict protein subcellular locations, we propose a deep learning based predictor called DeepPSL by using Stacked Auto-Encoder (SAE) networks. In this predictor, we automatically learn high-level and abstract feature representations of proteins by exploring non-linear relations among diverse subcellular locations, addressing the problem of the need of handcrafted feature representations. Experimental results evaluated with three-fold cross validation show that the proposed DeepPSL outperforms traditional machine learning based methods. It is expected that DeepPSL, as the first predictor in the field of PSL prediction, has great potential to be a powerful computational method complementary to existing tools.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

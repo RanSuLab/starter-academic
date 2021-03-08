@@ -1,16 +1,19 @@
 ---
-title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
+title: "Decision Variants for the Automatic Determination of Optimal Feature Subset in RF-RFE"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Huichen Wu
+- Qi Chen
+- Zhaopeng Meng
 - Xinyi Liu
-- Leyi Wei
+- Qianguo Jin
+- admin
 
-date: "2019-12-01T00:00:00Z"
+
+
+date: "2018-06-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,9 +26,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Briefings in Bioinformatics*
+publication: In *genes*
 
-abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation, named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
+abstract: Feature selection, which identifies a set of most informative features from the original feature space, has been widely used to simplify the predictor. Recursive feature elimination (RFE), as one of the most popular feature selection approaches, is effective in data dimension reduction and efficiency increase. A ranking of features, as well as candidate subsets with the corresponding accuracy, is produced through RFE. The subset with highest accuracy (HA) or a preset number of features (PreNum) are often used as the final subset. However, this may lead to a large number of features being selected, or if there is no prior knowledge about this preset number, it is often ambiguous and subjective regarding final subset selection. A proper decision variant is in high demand to automatically determine the optimal subset. In this study, we conduct pioneering work to explore the decision variant after obtaining a list of candidate subsets from RFE. We provide a detailed analysis and comparison of several decision variants to automatically select the optimal feature subset. Random forest (RF)-recursive feature elimination (RF-RFE) algorithm and a voting strategy are introduced. We validated the variants on two totally different molecular biology datasets, one for a toxicogenomic study and the other one for protein sequence analysis. The study provides an automated way to determine the optimal feature subset when using RF-RFE.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

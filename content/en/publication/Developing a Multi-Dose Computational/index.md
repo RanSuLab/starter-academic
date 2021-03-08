@@ -1,5 +1,5 @@
 ---
-title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
+title: "Developing a Multi-Dose Computational Model for Drug-induced Hepatotoxicity Prediction based on Toxicogenomics Data"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -7,10 +7,13 @@ title: "Predicting drug-induced hepatotoxicity based on biological feature maps 
 authors:
 - admin
 - Huichen Wu
-- Xinyi Liu
+- Bo Xu
+- Xiaofeng Liu
 - Leyi Wei
 
-date: "2019-12-01T00:00:00Z"
+
+
+date: "2019-08-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,9 +26,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Briefings in Bioinformatics*
+publication: In *IEEE/ACM Transactions on  Computational  Biology and Bioinformatics*
 
-abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation, named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
+abstract: Drug-induced hepatotoxicity may cause acute and chronic liver disease, leading to great concern for patient safety. It is also one of the main reasons for drug withdrawal from the market. Toxicogenomics data has been widely used in hepatotoxicity prediction. In our study, we proposed a multi-dose computational model to predict the drug-induced hepatotoxicity based on gene expression and toxicity data. The dose/concentration information after drug treatment is fully utilized in our study based on the dose-response curve, thus a more informative representative of the dose-response relationship is considered. We also proposed a new feature selection method, named MEMO, which is also one important aspect of our multi-dose model in our study, to deal with the high-dimensional toxicogenomics data. We validated the proposed model using the TG-GATEs, which is a large database recording toxicogenomics data from multiple views. The experimental results show that the drug-induced hepatotoxicity can be predicted with high accuracy and efficiency using the proposed predictive model.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

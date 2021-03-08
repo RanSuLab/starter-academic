@@ -1,16 +1,18 @@
 ---
-title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
+title: "Deep-Resp-Forest：A deep forest model to predict anti-cancer drug response"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Huichen Wu
 - Xinyi Liu
 - Leyi Wei
+- Quan Zou
 
-date: "2019-12-01T00:00:00Z"
+
+
+date: "2019-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,9 +25,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Briefings in Bioinformatics*
+publication: In *Methods*
 
-abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation, named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
+abstract: The identification of therapeutic biomarkers predictive of drug response is crucial in personalized medicine. A number of computational models to predict response of anti-cancer drugs have been developed as the establishment of several pharmacogenomics screening databases. In our study, we proposed a deep cascaded forest model, Deep-Resp-Forest, to classify the anti-cancer drug response as “sensitive” or “resistant”. We made three contributions in this study. Firstly, diverse molecular data could be effectively integrated to provide more information than single type of data for the classification. Combination of two types of data were tested here. Secondly, two structures based on the multi-grained scanning to transform the raw features into high-dimensional feature vectors and integrate the diverse data were proposed in our study. Thirdly, the original deep and time-consuming architecture of cascade forest was improved by a feature optimization operation, which emphasized the most discriminative features across layers. We evaluated the proposed method on the Cancer Cell Line Encyclopedia (CCLE) and Genomics of Drug Sensitivity in Cancer (GDSC) data sets and then compared with the Support Vector Machine. The proposed Deep-Resp-Forest has demonstrated the promising use of deep learning and deep forest approach on the drug response prediction tasks. The R implementation for running our experiments is available at https://github.com/RanSuLab/Deep-Resp-Forest.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

@@ -1,16 +1,23 @@
 ---
-title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
+title: "Detection of tubule boundaries based on circular shortest path and polar-transformation of arbitrary shapes"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Huichen Wu
-- Xinyi Liu
-- Leyi Wei
+- C. Zhang
+- T. D. Pham
+- R Davey
+- L Bischof
+- P. Vallotton
+- D. LOV E L L
+- S. Hope
+- S. Schmoelzl
+- C. Sun
 
-date: "2019-12-01T00:00:00Z"
+
+date: "2016-04-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,9 +30,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Briefings in Bioinformatics*
+publication: In *Microscopy*
 
-abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation, named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
+abstract: In studies of germ cell transplantation, counting cells and measuring tubule diameters from different populations using labelled antibodies are important measurement processes. However, it is slow and sanity grinding to do these tasks manually. This paper proposes a way to accelerate these processes using a new image analysis framework based on several novel algorithms: centre points detection of tubules, tubule shape classification, skeleton-based polar-transformation, boundary weighting of polar-transformed image, and circular shortest path smoothing. The framework has been tested on a dataset consisting of 27 images which contain a total of 989 tubules. Experiments show that the detection results of our algorithm are very close to the results obtained manually and the novel approach can achieve a better performance than two existing methods.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

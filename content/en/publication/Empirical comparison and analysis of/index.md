@@ -1,16 +1,18 @@
 ---
-title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
+title: "Empirical comparison and analysis of web-based cell-penetrating peptide prediction tools"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Huichen Wu
-- Xinyi Liu
-- Leyi Wei
+- Jie Hu
+- Balachandran Manavalan
+- Quan Zou
 
-date: "2019-12-01T00:00:00Z"
+
+
+date: "2019-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -25,7 +27,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: In *Briefings in Bioinformatics*
 
-abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation, named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
+abstract: Cell-penetrating peptides (CPPs) facilitate the delivery of therapeutically relevant molecules, including DNA, proteins and oligonucleotides, into cells both in vitro and in vivo. This unique ability explores the possibility of CPPs as therapeutic delivery and its potential applications in clinical therapy. Over the last few decades, a number of machine learning-based prediction tools have been developed, and some of them are freely available as web portals. However, the predictions produced by various tools is difficult to quantify and compare. In particular, there is no systematic comparison of the web-based prediction tools in performance, especially in practical applications. In this work, we provide a comprehensive review on the biological importance of CPPs, CPP database, and existing machine learning based methods for CPP prediction. To evaluate current prediction tools, we conducted a comparative study and analyzed a total of 12 models from six publicly available CPP prediction tools on two benchmark validation sets of CPPs and non-CPPs. Our benchmarking results demonstrated that a model from the KELM-CPPpred, namely KELM-hybrid-AAC, showed a significant improvement in overall performance, when compared to the other 11 prediction models. Moreover, through a length-dependency analysis, we find that existing prediction tools tend to more accurately predict CPPs and non-CPPs with the length of 20-25 residues long than peptides in other length ranges.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
