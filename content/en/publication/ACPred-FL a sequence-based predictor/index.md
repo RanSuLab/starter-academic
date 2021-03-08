@@ -1,18 +1,18 @@
 ---
-title: "ACPred-Fuse: fusing multi-view information improves the prediction of anticancer peptides"
+title: "ACPred-FL: a sequence-based predictor using effective feature representation to improve the prediction of anti-cancer peptides"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Bing Rao
-- Chen Zhou
-- Guoying Zhang*
-- Ran Su*
 - Leyi Wei*
+- Chen Zhou
+- Huangrong Chen
+- Jiangning Song*
+- Ran Su*
 
 
-date: "2019-11-01T00:00:00Z"
+date: "2018-05-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -25,9 +25,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Briefings in Bioinformatics*
+publication: In *Bioinformatics*
 
-abstract: Fast and accurate identification of the peptides with anticancer activity potential from large-scale proteins is currently a challenging task. In this study, we propose a new machine learning predictor, namely, ACPred-Fuse, that can automatically and accurately predict protein sequences with or without anticancer activity in peptide form. Specifically, we establish a feature representation learning model that can explore class and probabilistic information embedded in anticancer peptides (ACPs) by integrating a total of 29 different sequence-based feature descriptors. In order to make full use of various multiview information, we further fused the class and probabilistic features with handcrafted sequential features and then optimized the representation ability of the multiview features, which are ultimately used as input for training our prediction model. By comparing the multiview features and existing feature descriptors, we demonstrate that the fused multiview features have more discriminative ability to capture the characteristics of ACPs. In addition, the information from different views is complementary for the performance improvement. Finally, our benchmarking comparison results showed that the proposed ACPred-Fuse is more precise and promising in the identification of ACPs than existing predictors. To facilitate the use of the proposed predictor, we built a web server, which is now freely available via http://server.malab.cn/ACPred-Fuse.
+abstract: Motivation: Anti-cancer peptides (ACPs) have recently emerged as promising therapeutic agents for cancer treatment. Due to the avalanche of protein sequence data in the post-genomic era, there is an urgent need to develop automated computational methods to enable fast and accurate identification of novel ACPs within the vast number of candidate proteins and peptides. Results: To address this, we propose a novel predictor named Anti-Cancer peptide Predictor with Feature representation Learning (ACPred-FL) for accurate prediction of ACPs based on sequence information. More specifically, we develop an effective feature representation learning model, with which we can extract and learn a set of informative features from a pool of support vector machine-based models trained using sequence-based feature descriptors. By doing so, the class label information of data samples is fully utilized. To improve the feature representation, we further employ a two-step feature selection technique, resulting in a most informative five-dimensional feature vector for the final peptide representation. Experimental results show that such five features provide the most discriminative power for identifying ACPs than currently available feature descriptors, highlighting the effectiveness of the proposed feature representation learning approach. The developed ACPred-FL method significantly outperforms state-of-the-art methods. Availability and implementation: The web-server of ACPred-FL is available at http://server.malab.cn/ACPred-FL.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

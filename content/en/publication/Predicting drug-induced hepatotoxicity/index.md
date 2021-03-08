@@ -1,18 +1,16 @@
 ---
-title: "ACPred-Fuse: fusing multi-view information improves the prediction of anticancer peptides"
+title: "Predicting drug-induced hepatotoxicity based on biological feature maps and diverse classification strategies"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Bing Rao
-- Chen Zhou
-- Guoying Zhang*
-- Ran Su*
-- Leyi Wei*
+- admin
+- Huichen Wu
+- Xinyi Liu
+- Leyi Wei
 
-
-date: "2019-11-01T00:00:00Z"
+date: "2019-12-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -27,7 +25,18 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: In *Briefings in Bioinformatics*
 
-abstract: Fast and accurate identification of the peptides with anticancer activity potential from large-scale proteins is currently a challenging task. In this study, we propose a new machine learning predictor, namely, ACPred-Fuse, that can automatically and accurately predict protein sequences with or without anticancer activity in peptide form. Specifically, we establish a feature representation learning model that can explore class and probabilistic information embedded in anticancer peptides (ACPs) by integrating a total of 29 different sequence-based feature descriptors. In order to make full use of various multiview information, we further fused the class and probabilistic features with handcrafted sequential features and then optimized the representation ability of the multiview features, which are ultimately used as input for training our prediction model. By comparing the multiview features and existing feature descriptors, we demonstrate that the fused multiview features have more discriminative ability to capture the characteristics of ACPs. In addition, the information from different views is complementary for the performance improvement. Finally, our benchmarking comparison results showed that the proposed ACPred-Fuse is more precise and promising in the identification of ACPs than existing predictors. To facilitate the use of the proposed predictor, we built a web server, which is now freely available via http://server.malab.cn/ACPred-Fuse.
+abstract: Identifying hepatotoxicity as early as possible is significant in drug development. In this study, we developed a
+drug-induced hepatotoxicity prediction model taking account of both the biological context and the computational efficacy
+based on toxicogenomics data. Specifically, we proposed a novel gene selection algorithm considering gene’s participation,
+named BioCB, to choose the discriminative genes and make more efficient prediction. Then instead of using the raw gene
+expression levels to characterize each drug, we developed a two-dimensional biological process feature pattern map to
+represent each drug. Then we employed two strategies to handle the maps and identify the hepatotoxicity, the direct use of
+maps, named Two-dim branch, and vectorization of maps, named One-dim branch. The two strategies subsequently used
+the deep convolutional neural networks and LightGBM as predictors, respectively. Additionally, we here for the first time
+proposed a stacked vectorized gene matrix, which was more predictive than the raw gene matrix. Results validated on both
+in vivo and in vitro data from two public data sets, the TG-GATES and DrugMatrix, show that the proposed One-dim branch
+outperforms the deep framework, the Two-dim branch, and has achieved high accuracy and efficiency. The implementation
+of the proposed method is available at https://github.com/RanSuLab/Hepatotoxicity.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
