@@ -7,8 +7,8 @@ title: "Meta-GDBP: a high-level stacked regression model to improve anticancer d
 authors:
 - admin
 - Xinyi Liu
-- Guobao Xiao
-- Leyi Wei
+- Guobao Xiao*
+- Leyi Wei*
 
 date: "2019-3-01T00:00:00Z"
 doi: ""
