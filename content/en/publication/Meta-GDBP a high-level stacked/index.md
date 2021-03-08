@@ -1,5 +1,5 @@
 ---
-title: "Meta-GDBP: a high-level stacked regression model to improve anticancer drug response prediction"
+title: "Meta-GDBP a high-level stacked regression model to improve anticancer drug response prediction"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
