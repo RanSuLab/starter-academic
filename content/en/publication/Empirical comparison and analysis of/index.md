@@ -7,8 +7,9 @@ title: "Empirical comparison and analysis of web-based cell-penetrating peptide 
 authors:
 - admin
 - Jie Hu
-- Balachandran Manavalan
-- Quan Zou
+- Balachandran Manavalan*
+- Quan Zou*
+- Leyi Wei*
 
 
 
@@ -22,7 +23,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Briefings in Bioinformatics*
