@@ -1,15 +1,17 @@
 ---
-title: "M6APred-EL: A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
+title: "A novel method for dendritic spines detection based on directional morphological filter and shortest path"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Leyi Wei
-- Huangrong Chen
 - admin
+- Changming Sun
+- Chao Zhang
+- Tuan D. Pham
 
-date: "2018-07-01T00:00:00Z"
+
+date: "2014-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -22,10 +24,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Molecular Therapy Nucleic Acids*
+publication: In *Computerized Medical Imaging & Graphics*
 
-abstract: N6-methyladenosine (m6A) modification is the most abundant RNA methylation modification and involves various biological processes, such as RNA splicing and degradation. Recent studies have demonstrated the feasibility of identifying m6A peaks using high-throughput sequencing techniques. However, such techniques cannot accurately identify specific methylated sites, which is important for a better understanding of m6A functions. In this study, we develop a novel machine learning-based predictor called M6APred-EL for the identification
-of m6A sites. To predict m6A sites accurately within genomic sequences, we trained an ensemble of three support vector machine classifiers that explore the position-specific information and physical chemical information from position- specific k-mer nucleotide propensity, physical-chemical properties, and ring-function-hydrogen-chemical properties. We examined and compared the performance of our predictor with other state-of-the-art methods of benchmarking datasets. Comparative results showed that the proposed M6APred-EL performed more accurately for m6A site identification. Moreover, a user-friendly web server that implements the proposed M6APred-EL is well established and is currently available at http://server.malab.cn/M6APred-EL/. It is expected to be a practical and effective tool for the investigation of m6A functional mechanisms.
+abstract: Dendritic spines are tiny membranous protrusions from neuron’s dendrites. They play a very important role in the nervous system. A number of mental diseases such as Alzheimer’s disease and mental retardation are revealed to have close relations with spine morphologies or spine number changes. Spines have various shapes, and spine images are often not of good quality; hence it is very challenging to detect spines in neuron images. This paper presents a novel pipeline to detect dendritic spines in 2D maximum intensity projection (MIP) images and a new dendrite backbone extraction method is developed in the pipeline. The strategy for the backbone extraction approach is that it iteratively refines the extraction result based on directional morphological filtering and improved Hessian filtering until a satisfactory extraction result is obtained. A shortest path method is applied along a backbone to extract the boundary ofthe dendrites. Spines are then segmented from the dendrites outside the extracted boundary. Touching spines will be split using a marker-controlled watershed algorithm. We present the results of our algorithm on real images and compare our algorithm with two other spine detection methods. The results show that the proposed approach can detect dendrites and spines more accurately. Measurements and classification of spines are also made in this paper.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

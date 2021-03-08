@@ -1,15 +1,18 @@
 ---
-title: "M6APred-EL: A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
+title: "ACPred-Fuse: fusing multi-view information improves the prediction of anticancer peptides"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Leyi Wei
-- Huangrong Chen
+- Bing Rao
+- Chen Zhou
+- Guoying Zhang
 - admin
+- Leyi Wei
 
-date: "2018-07-01T00:00:00Z"
+
+date: "2019-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -22,10 +25,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Molecular Therapy Nucleic Acids*
+publication: In *Briefings in Bioinformatics*
 
-abstract: N6-methyladenosine (m6A) modification is the most abundant RNA methylation modification and involves various biological processes, such as RNA splicing and degradation. Recent studies have demonstrated the feasibility of identifying m6A peaks using high-throughput sequencing techniques. However, such techniques cannot accurately identify specific methylated sites, which is important for a better understanding of m6A functions. In this study, we develop a novel machine learning-based predictor called M6APred-EL for the identification
-of m6A sites. To predict m6A sites accurately within genomic sequences, we trained an ensemble of three support vector machine classifiers that explore the position-specific information and physical chemical information from position- specific k-mer nucleotide propensity, physical-chemical properties, and ring-function-hydrogen-chemical properties. We examined and compared the performance of our predictor with other state-of-the-art methods of benchmarking datasets. Comparative results showed that the proposed M6APred-EL performed more accurately for m6A site identification. Moreover, a user-friendly web server that implements the proposed M6APred-EL is well established and is currently available at http://server.malab.cn/M6APred-EL/. It is expected to be a practical and effective tool for the investigation of m6A functional mechanisms.
+abstract: Fast and accurate identification of the peptides with anticancer activity potential from large-scale proteins is currently a challenging task. In this study, we propose a new machine learning predictor, namely, ACPred-Fuse, that can automatically and accurately predict protein sequences with or without anticancer activity in peptide form. Specifically, we establish a feature representation learning model that can explore class and probabilistic information embedded in anticancer peptides (ACPs) by integrating a total of 29 different sequence-based feature descriptors. In order to make full use of various multiview information, we further fused the class and probabilistic features with handcrafted sequential features and then optimized the representation ability of the multiview features, which are ultimately used as input for training our prediction model. By comparing the multiview features and existing feature descriptors, we demonstrate that the fused multiview features have more discriminative ability to capture the characteristics of ACPs. In addition, the information from different views is complementary for the performance improvement. Finally, our benchmarking comparison results showed that the proposed ACPred-Fuse is more precise and promising in the identification of ACPs than existing predictors. To facilitate the use of the proposed predictor, we built a web server, which is now freely available via http://server.malab.cn/ACPred-Fuse.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

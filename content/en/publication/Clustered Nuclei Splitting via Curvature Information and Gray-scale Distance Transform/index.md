@@ -1,15 +1,17 @@
 ---
-title: "M6APred-EL: A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
+title: "Clustered nuclei splitting via curvature information and gray-scale distance transform"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Leyi Wei
-- Huangrong Chen
+- Chao Zhang
+- Changming Sun
 - admin
+- Tuan D. Pham
 
-date: "2018-07-01T00:00:00Z"
+
+date: "2015-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -22,10 +24,9 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Molecular Therapy Nucleic Acids*
+publication: In *Journal of Microscopy*
 
-abstract: N6-methyladenosine (m6A) modification is the most abundant RNA methylation modification and involves various biological processes, such as RNA splicing and degradation. Recent studies have demonstrated the feasibility of identifying m6A peaks using high-throughput sequencing techniques. However, such techniques cannot accurately identify specific methylated sites, which is important for a better understanding of m6A functions. In this study, we develop a novel machine learning-based predictor called M6APred-EL for the identification
-of m6A sites. To predict m6A sites accurately within genomic sequences, we trained an ensemble of three support vector machine classifiers that explore the position-specific information and physical chemical information from position- specific k-mer nucleotide propensity, physical-chemical properties, and ring-function-hydrogen-chemical properties. We examined and compared the performance of our predictor with other state-of-the-art methods of benchmarking datasets. Comparative results showed that the proposed M6APred-EL performed more accurately for m6A site identification. Moreover, a user-friendly web server that implements the proposed M6APred-EL is well established and is currently available at http://server.malab.cn/M6APred-EL/. It is expected to be a practical and effective tool for the investigation of m6A functional mechanisms.
+abstract: Clusters or clumps of cells or nuclei are frequently observed in two dimensional images of thick tissue sections. Correct and accurate segmentation of overlapping cells and nuclei is important for many biological and biomedical applications. Many existing algorithms split clumps through the binarization of the input images; therefore, the intensity information of the original image is lost during this process. In this paper, we present a curvature information, gray scale distance transform, and shortest path splitting line-based algorithm which can make full use of the concavity and image intensity information to find out markers, each of which represents an individual object, and detect accurate splitting lines between objects using shortest path and junction adjustment. The proposed algorithm is tested on both synthetic and real nuclei images. Experiment results show that the performance of the proposed method is better than that of marker-controlled watershed method and ellipse fitting method.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
