@@ -6,7 +6,7 @@ title: "Detection of tubule boundaries based on circular shortest path and polar
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- C. Zhang
+- C. Zhang*
 - T. D. Pham
 - R Davey
 - L Bischof
