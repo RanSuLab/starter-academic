@@ -27,7 +27,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: In *Methods*
 
-abstract: The identification of therapeutic biomarkers predictive of drug response is crucial in personalized medicine. A number of computational models to predict response of anti-cancer drugs have been developed as the establishment of several pharmacogenomics screening databases.
+abstract: The identification of therapeutic biomarkers predictive of drug response is crucial in personalized medicine. A number of computational models to predict response of anti-cancer drugs have been developed as the establishment of several pharmacogenomics screening databases. In our study, we proposed a deep cascaded forest model, Deep-Resp-Forest, to classify the anti-cancer drug response as “sensitive” or “resistant”. 
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
