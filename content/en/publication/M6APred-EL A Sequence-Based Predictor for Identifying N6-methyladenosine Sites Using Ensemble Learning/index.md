@@ -1,5 +1,5 @@
 ---
-title: "M6APred-EL: A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
+title: "M6APred-EL A Sequence-Based Predictor for Identifying N6-methyladenosine Sites Using Ensemble Learning"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
