@@ -1,5 +1,5 @@
 ---
-title: "Deep-Resp-Forest：A deep forest model to predict anti-cancer drug response"
+title: "Deep-Resp-Forest: A deep forest model to predict anti-cancer drug response"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -8,7 +8,7 @@ authors:
 - admin
 - Xinyi Liu
 - Leyi Wei
-- Quan Zou
+- Quan Zou*
 
 
 
