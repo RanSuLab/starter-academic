@@ -24,7 +24,7 @@ content:
   user_groups:
   - 博士生
   - 硕士生
-  - 毕业组员
+  - 毕业生
   - Students
   - Administration
   - Visitors
