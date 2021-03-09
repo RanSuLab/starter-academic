@@ -34,10 +34,10 @@ experience:
 # * Modelling
 # * Deploying
         
-  - title: Postdoc researcher
-    company: Agency for Science, Technology and Research (A*STAR)
+  - title: 博士后研究员
+    company: 新加坡科技局 (A*STAR)
     company_url: ''
-    location: Singapore
+    location: 新加坡
     date_start: '2013-11-08'
     date_end: '2016-05-31'
 # description: Taught electronic engineering and researched semiconductor physics.
