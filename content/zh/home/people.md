@@ -9,11 +9,6 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-content:
-  # Page type to display. E.g. post, talk, publication...
-  page_type: publication
-  # Choose how much pages you would like to display (0 = all pages)
-  count: 4
 
 title: Welcome to our lab
 subtitle:
