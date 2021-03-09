@@ -1,6 +1,5 @@
 ---
-title: "Iterative feature representations improve
-N4-methylcytosine site prediction"
+title: "Iterative feature representations improve N4-methylcytosine site prediction"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
