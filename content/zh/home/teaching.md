@@ -17,7 +17,7 @@ subtitle: ''
 date_format: Jan 2006
 
 experience:
-  - title: Discrete mathematics
+  - title: 离散数学
     company: 2018/2019/2020-Semester 2
     #location: 2018/2019/2020-Semester 2
     date_start: '2018-09-01'
