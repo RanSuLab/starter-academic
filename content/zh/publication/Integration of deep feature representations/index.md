@@ -6,7 +6,7 @@ title: "Integration of deep feature representations and handcrafted features to 
 # and it will be replaced with their full name and linked to their profile.                    
 authors:
 - Leyi Wei 
-- admin
+- Ran Su
 - Bing Wang
 - Xiuting Li
 - Quan Zou*

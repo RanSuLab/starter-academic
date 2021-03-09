@@ -5,10 +5,10 @@ title: "Empirical comparison and analysis of web-based cell-penetrating peptide 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
+- Ran Su
 - Jie Hu
+- Quan Zou
 - Balachandran Manavalan*
-- Quan Zou*
 - Leyi Wei*
 
 
