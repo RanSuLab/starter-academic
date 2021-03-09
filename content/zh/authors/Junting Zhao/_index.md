@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 赵俊庭
+title: 赵俊庭(博士在读)
 
 # Username (this should match the folder name)
 authors:

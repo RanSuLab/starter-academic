@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吴慧辰
+title: 吴慧辰(中国人保)
 
 # Username (this should match the folder name)
 authors:

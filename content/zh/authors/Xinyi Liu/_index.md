@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 刘心一
+title: 刘心一(美团)
 
 # Username (this should match the folder name)
 authors:

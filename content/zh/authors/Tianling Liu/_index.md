@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 刘天灵
+title: 刘天灵(博士在读)
 
 # Username (this should match the folder name)
 authors:

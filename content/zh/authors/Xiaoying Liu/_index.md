@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 刘晓莹
+title: 刘晓莹(歌尔)
 
 # Username (this should match the folder name)
 authors:

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Junting Zhao
+title: Junting Zhao(Ph.D)
 
 # Username (this should match the folder name)
 authors:
